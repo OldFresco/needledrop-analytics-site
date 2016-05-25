@@ -48,6 +48,11 @@ h4 {
     padding: 12%;
 }
 
+ig-container {
+    background-color: #fff;
+    background-image: url(//jifo.co/i/templates/21/1-yellow-bckgrnd.png);
+}
+
 .bg-grey {
     background-color: #f6f6f6;
 }
