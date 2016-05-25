@@ -35,6 +35,7 @@ h4 {
 }
 
 .banner-text {
+    letter-spacing: 9px;
     font-style: normal;
     font-weight: bold;
     padding: 7%;
