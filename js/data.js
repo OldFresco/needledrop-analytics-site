@@ -16,6 +16,7 @@ request.onreadystatechange = function(response) {
             jsonOptions.forEach(function(item) {
                 // Create a new <option> element.
                 var option = document.createElement('option');
+                option.className = "dropdown-content";
                 // Set the value using the item in the JSON array.
                 option.value = item.REVIEW + ' | Rating: ' + item.RATING + '/10';
                 // Add the <option> element to the <datalist>.
