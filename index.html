@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Product+Sans" type="text/css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="stylesheets/animate.min.css" type="text/css">
-    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </head>
@@ -23,7 +22,10 @@
     <div id="about" class="container-fluid slideanim">
         <div class="row">
             <div class="col-sm-8">
-                <h2 class="banner-text"><font color="grey">Graph</font>tony <font color="grey">Stat</font>hano here a.k.a internet's busiest music (<font color="red">stats</font>) nerd</h2>
+                <h2 class="banner-text">
+                    <font color="grey">Graph</font>tony
+                    <font color="grey">Stat</font>hano here a.k.a internet's busiest music
+                    <font color="red">(stats)</font> nerd</h2>
             </div>
             <div class="col-sm-4 head-logo">
                 <img class="center-block img-responsive" src="img/needledrop_logo_border.jpg" />
@@ -33,20 +35,49 @@
             <i class="fa fa-hand-o-down fa-3x wow bounceIn" data-wow-delay="1s"></i>
         </div>
     </div>
-    <div class="main-graph">
-        <script id="infogram_0_overall_numbers-5" title="" src="https://infogr.am/js/embed.js?PDq" type="text/javascript"></script>
+    <div class="main-graph head-logo">
+        <img class="center-block img-responsive wow bounceIn" src="img/main_info.jpg" />
+    </div>
+    <div>
+        <script id="infogram_0_6e028472-f13f-4ae9-92de-7b955f556866" title="" src="https://infogr.am/js/embed.js?2eV" type="text/javascript"></script>
+    </div>
+    <div class="container-fluid-header text-center">
+        <label class="banner-text" for="ajax">Search</label>
+        <input type="text" id="ajax" list="json-datalist" placeholder="e.g. Kendrick">
+        <datalist id="json-datalist"></datalist>
+    </div>
+    <div id="about" class="container-fluid slideanim">
+        <div class="row">
+            <div class="col-sm-8">
+                <h2 class="banner-text">
+                    <font color="grey">Does</font> Fantano hate Hip-Hop?
+                    <font color="red">No.</font> See:
+                </h2>
+            </div>
+        </div>
     </div>
     <div>
         <script id="infogram_0_genre-71885445968" title="GENRES" src="https://infogr.am/js/embed.js?xUg" type="text/javascript"></script>
     </div>
-    <div class="main-graph">
-        <script id="infogram_0_all_genres_989_reviews" title="[ALL GENRES]&amp;nbsp;989 REVIEWS" src="https://infogr.am/js/embed.js?sRk" type="text/javascript"></script>
+    <div class="container-fluid-header text-center">
+        <div>
+            <a href="https://twitter.com/theneedledrop?lang=en-gb">
+                <img title="Twitter" alt="Twitter" src="https://socialmediawidgets.files.wordpress.com/2014/03/01_twitter1.png" width="35" height="35" />
+            </a>
+            <a href="https://www.facebook.com/theneedledrop/">
+                <img title="Facebook" alt="Facebook" src="https://socialmediawidgets.files.wordpress.com/2014/03/02_facebook1.png" width="35" height="35" />
+            </a>
+            <a href="https://www.youtube.com/user/theneedledrop">
+                <img title="Youtube" alt="Youtube" src="https://socialmediawidgets.files.wordpress.com/2014/03/03_youtube.png" width="35" height="35" />
+            </a>
+        </div>
     </div>
     <script src="js/index.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/jquery.fittext.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/creative.js"></script>
+    <script src="js/data.js"></script>
 </body>
 
 </html>
